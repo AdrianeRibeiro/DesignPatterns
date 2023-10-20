@@ -13,7 +13,7 @@
   - A ideia central do padrão Factory é definir uma interface (ou classe abstrata) que declara um método para a criação de objetos. 
     - As classes concretas que implementam essa interface fornecem a implementação real desse método, criando instâncias de objetos específicos. Isso permite que o cliente (código que deseja criar objetos) use a interface para criar objetos sem precisar se preocupar com os detalhes de como os objetos são criados.
   
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/factory.rb">Ver Código</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/factory.rb">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -34,7 +34,7 @@
 
   - É usado quando você precisa criar objetos que compartilham uma interface comum, mas pertencem a famílias diferentes, e você deseja garantir que essas famílias de objetos sejam consistentes e intercambiáveis. Isso promove um código mais flexível, de fácil manutenção e menos propenso a erros.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/abstract_factory.rb">Ver Código</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/abstract_factory.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
 
