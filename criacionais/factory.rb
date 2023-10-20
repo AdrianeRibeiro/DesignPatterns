@@ -8,7 +8,8 @@ class MarketingProfile < Profile
   def load_menu
     {
       name: 'Marketing',
-      features: %w[marketing_management marketing_automation]
+      features: %w[marketing_management],
+      style: { class: 'marketing' }
     }
   end
 end
@@ -17,7 +18,8 @@ class SalesProfile < Profile
   def load_menu
     {
       name: 'Sales',
-      features: %w[sales_management sales_automation]
+      features: %w[sales_management],
+      style: { class: 'sales' }
     }
   end
 end
@@ -26,7 +28,8 @@ class ManagerProfile < Profile
   def load_menu
     {
       name: 'Manager',
-      features: %w[admin_management]
+      features: %w[admin_management],
+      style: { class: 'manager' }
     }
   end
 end
@@ -35,18 +38,20 @@ class SlimProfile < Profile
   def load_menu
     {
       name: 'Slim',
-      features: %w[slim_management]
+      features: %w[slim_management],
+      style: { class: 'slim' }
     }
   end
 end
 
 class ProfileFactory
   def self.call(profile)
-    if profile == 'marketing'
+    case profile
+    when 'marketing'
       MarketingProfile.new
-    elsif profile == 'sales'
+    when 'sales'
       SalesProfile.new
-    elsif profile == 'manager'
+    when 'manager'
       ManagerProfile.new
     else
       SlimProfile.new
