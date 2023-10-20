@@ -15,10 +15,10 @@
 </details>
 
 <details>
-<summary>Abstract</summary>
+<summary>Abstract Factory</summary>
   <br>
 
-  - Abstract Factory, também conhecido como fábrica abstrata, é um padrão de criação. Ele permite que você crie objetos que dependem uns dos outros sem conhecer os detalhes específicos de suas classes.
+  - Também conhecido como fábrica abstrata, é um padrão de criação. Ele permite que você crie objetos que dependem uns dos outros sem conhecer os detalhes específicos de suas classes.
 
   - O seu objetivo principal é fornecer uma interface para criar famílias de objetos relacionados, de forma que a implementação concreta desses objetos seja adiada até o tempo de execução. Isso promove o princípio do "Design para Interface, não para Implementação".
 
