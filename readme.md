@@ -17,12 +17,16 @@
 <details>
 <summary>Abstract Factory</summary>
   <br>
+    - Também conhecido como fábrica abstrata, é um padrão de criação. Ele fornece uma interface para criar famílias de objetos relacionados. 
 
-  - Também conhecido como fábrica abstrata, é um padrão de criação. Ele permite que você crie objetos que dependem uns dos outros sem conhecer os detalhes específicos de suas classes.
+    - Resumindo, o Abstract Factory envolve:
+  
+      - Abstração da fábrica: define uma interface abstrata (geralmente uma classe ou conjunto de métodos) que declara a criação de objetos relacionados, como famílias de produtos.
 
-  - O seu objetivo principal é fornecer uma interface para criar famílias de objetos relacionados, de forma que a implementação concreta desses objetos seja adiada até o tempo de execução. Isso promove o princípio do "Design para Interface, não para Implementação".
+      - Fábricas concretas: fornecem a implementação real para criar objetos dentro de uma família.
 
-  - Desacopla o código cliente que utiliza os objetos da lógica de criação deles. Isso torna mais fácil substituir famílias inteiras de objetos, pois o cliente não precisa ser alterado. Além disso, é mais fácil adicionar novas famílias de objetos ou estender as existentes sem modificar o código cliente.
+      - Famílias de produtos: São conjuntos de objetos relacionados
 
+    - É usado quando você precisa criar objetos que compartilham uma interface comum, mas pertencem a famílias diferentes, e você deseja garantir que essas famílias de objetos sejam consistentes e intercambiáveis. Isso promove um código mais flexível, de fácil manutenção e menos propenso a erros.
 </details>
 
