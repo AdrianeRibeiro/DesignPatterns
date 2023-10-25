@@ -1,6 +1,8 @@
 ## 🤷‍♀️ Sobre 
 
-- Repositório com exemplos práticos sobre os Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
+- Repositório com exemplos práticos de Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
+
+<br>
 
 ## [🏭 Padrões criacionais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/)
 
