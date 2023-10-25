@@ -1,7 +1,9 @@
+## Repositório com exemplos práticos sobre os Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
+
 ## [🏭 Padrões criacionais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/)
 
 <details>
-<summary>Factory</summary>
+<summary>Factory (Método fábrica) </summary>
   <br>
 
   - Usado para criar objetos de forma flexível e desacoplada.
@@ -19,10 +21,10 @@
 <br>
 
 <details>
-<summary>Abstract Factory</summary>
+<summary>Abstract Factory (Fábrica abstrata)</summary>
   <br>
 
-  - Também conhecido como fábrica abstrata, é um padrão de criação. Ele fornece uma interface abstrata (geralmente uma classe ou conjunto de métodos) para criar famílias de objetos relacionados. 
+  - É um padrão de criação. Ele fornece uma interface abstrata (geralmente uma classe ou conjunto de métodos) para criar famílias de objetos relacionados. 
 
   - Resumindo, o Abstract Factory envolve:
 
@@ -38,3 +40,21 @@
 
 </details>
 
+<br>
+
+<details>
+<summary>Builder</summary>
+  <br>
+
+  - Usado quando precisamos construir objetos complexos com muitos atributos configuráveis, passo a passo. Ele simplifica o processo de instanciação de objetos.
+  
+  - Permite separar a construção de um objeto complexo da sua representação para que o mesmo processo de construção possa criar representações diferentes.
+
+  - O padrão Builder é útil quando:
+    - a construção de um objeto é algo independente das partes que compõem (métodos que estão construindo o objeto). 
+    - pode haver muitas maneiras de construir objetos complexos.
+    - trabalha-se com muitos parâmetros no construtor
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/builder.rb">👩🏼‍💻 Show me the code</a>
+
+</details>
