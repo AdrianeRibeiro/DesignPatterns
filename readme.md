@@ -1,4 +1,4 @@
-## Sobre 
+## 🤷‍♀️ Sobre 
 
 - Repositório com exemplos práticos sobre os Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
 
