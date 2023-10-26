@@ -2,6 +2,8 @@
 
 - Repositório com exemplos práticos de Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
 
+- Textos construidos pelo chatGPT
+  
 <br>
 
 ## [🏭 Padrões criacionais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/)
@@ -60,5 +62,21 @@
     - trabalha-se com muitos parâmetros no construtor
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/builder.rb">👩🏼‍💻 Show me the code</a>
+
+</details>
+
+<br>
+
+<details>
+<summary>Prototype</summary>
+  <br>
+
+  - Esse padrão é utilizado para criar objetos duplicados (clones), a partir de um objeto original chamado protótipo. 
+
+  - É particularmente útil quando a criação de um objeto é mais custosa em termos de recursos ou complexa, e você deseja criar cópias desse objeto com facilidade.
+
+  - O principal objetivo do padrão Prototype é permitir a criação de novos objetos a partir de um modelo (protótipo) preexistente, copiando suas propriedades e valores, em vez de criar novas instâncias do zero. Isso evita a necessidade de recriar o objeto original e permite que você crie clones com configurações personalizadas.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/prototype.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
