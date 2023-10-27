@@ -27,8 +27,12 @@ class PolyJuicePotion < Potion
 
   def clone(final_ingredient = nil)
     cloned_potion = dup
-    cloned_potion.final_ingredient = final_ingredient unless final_ingredient.nil?
+    cloned_potion.final_ingredient = final_ingredient unless present?(final_ingredient)
     cloned_potion
+  end
+
+  def present?(final_ingredient = nil)
+    final_ingredient.nil? || final_ingredient.to_s.strip == ''
   end
 
   def ingredients

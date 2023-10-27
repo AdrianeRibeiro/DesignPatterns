@@ -2,7 +2,7 @@
 
 - Repositório com exemplos práticos de Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
 
-- Textos construidos pelo chatGPT
+- Textos construidos pelo chatGPT.
   
 <br>
 
@@ -49,7 +49,7 @@
 <br>
 
 <details>
-<summary>Builder</summary>
+<summary>Builder (Construtor)</summary>
   <br>
 
   - Usado quando precisamos construir objetos complexos com muitos atributos configuráveis, passo a passo. Ele simplifica o processo de instanciação de objetos.
@@ -68,7 +68,7 @@
 <br>
 
 <details>
-<summary>Prototype</summary>
+<summary>Prototype (Clone)</summary>
   <br>
 
   - Esse padrão é utilizado para criar objetos duplicados (clones), a partir de um objeto original chamado protótipo. 
