@@ -2,7 +2,7 @@
 
 - Repositório com exemplos práticos de Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
 
-- Textos construidos pelo chatGPT.
+- Referências: chatGPT, https://refactoring.guru.
   
 <br>
 
@@ -80,3 +80,20 @@
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/prototype.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
+
+<br>
+
+<details>
+<summary>Singleton (Carta única)</summary>
+  <br>
+
+  - Tem o objetivo de garantir que uma classe tenha uma única instância e fornece um ponto global de acesso a essa instância. Em outras palavras, o padrão Singleton assegura que, independentemente de quantas vezes você tente criar um objeto de uma determinada classe, você sempre receberá a mesma instância, garantindo que haja uma única fonte de controle para essa classe.
+
+  - O Singleton é útil em situações em que você deseja ter apenas uma instância de uma classe para controlar recursos compartilhados, como configurações, pools de conexão, caches, registros de eventos ou qualquer outra informação que deve ser globalmente acessível. 
+
+  - Muitos desenvolvedores consideram o padrão Singleton um antipadrão. É por isso que seu uso está diminuindo no código Ruby.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/singleton.rb">👩🏼‍💻 Show me the code</a>
+
+</details>
+
