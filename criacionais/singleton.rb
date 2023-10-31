@@ -73,7 +73,6 @@ module SingletonWithThread
 end
 
 # Exemplo de uso
-
 puts "Singleton \n"
 client = Singleton::Client.new
 puts client.execute

@@ -2,7 +2,7 @@
 
 - Repositório com exemplos práticos de Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
 
-- Referências: chatGPT, https://refactoring.guru.
+> Referências: chatGPT, [Refactoring.Guru](https://refactoring.guru).
   
 <br>
 
@@ -97,3 +97,22 @@
 
 </details>
 
+<br>
+
+## [🏗️ Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/)
+
+<details>
+<summary>Adapter</summary>
+  <br>
+
+  - Ele atua como uma "ponte" entre duas classes ou sistemas que não poderiam se comunicar diretamente devido a diferenças em suas interfaces, estruturas ou funcionalidades.
+
+  - O padrão Adapter é especialmente útil em situações em que você precisa integrar sistemas legados, bibliotecas de terceiros ou serviços externos em seu código, sem modificar o código existente. 
+
+  - Essencialmente, o Adapter funciona como um tradutor, convertendo as chamadas de métodos e dados de um formato ou estrutura em outro, garantindo que duas partes do sistema possam se comunicar sem problemas. Isso promove a reutilização de código e simplifica a manutenção, uma vez que as alterações em um sistema não afetarão necessariamente o outro, desde que a interface do Adapter seja mantida consistente.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/adapter">👩🏼‍💻 Show me the code</a>
+
+</details>
+
+<br>
