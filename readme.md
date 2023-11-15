@@ -133,3 +133,20 @@
 </details>
 
 <br>
+
+<details>
+  <summary>Composite ![Composite](DesignPatternsRuby/estruturais/composite/composite.png)</summary>
+  <br>
+
+  - O padrão Composite permite criar estruturas de objetos hierárquicas, onde os objetos individuais e suas composições são tratados de maneira uniforme. Isso significa que você pode tratar um único objeto e um grupo de objetos da mesma maneira.
+
+  - Em termos simples, imagine que você está construindo uma árvore de objetos. Essa árvore pode conter objetos individuais (folhas) ou grupos de objetos (nós) que, por sua vez, podem conter mais objetos individuais ou grupos. O padrão Composite permite que você trate tanto as folhas quanto os nós da árvore da mesma maneira, sem precisar distinguir entre eles.
+
+  - Ele é frequentemente usado em sistemas que precisam representar hierarquias, como árvores, gráficos e interfaces de usuário
+
+  - Um exemplo comum de uso do padrão Composite é a representação de sistemas de arquivos, onde você tem arquivos individuais e diretórios que podem conter mais arquivos ou diretórios.
+ 
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/composite">👩🏼‍💻 Show me the code</a>
+</details>
+
+<br>
