@@ -115,8 +115,10 @@
 
 </details>
 
+<br>
+
 <details>
-<summary>Bridge 🌉</summary>
+  <summary>Bridge 🌉</summary>
   <br>
 
   - O principal objetivo do padrão Bridge é separar a abstração da implementação, permitindo que a alteração em uma delas não afete a outra. 
@@ -128,7 +130,6 @@
   - O padrão Bridge é amplamente utilizado em situações em que é importante manter a flexibilidade do sistema, como ao lidar com diferentes sistemas operacionais, bancos de dados, protocolos de comunicação ou dispositivos de hardware.
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/bridge">👩🏼‍💻 Show me the code</a>
-
 </details>
 
 <br>
