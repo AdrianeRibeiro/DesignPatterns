@@ -118,7 +118,7 @@
 <br>
 
 <details>
-  <summary>Bridge 🌉</summary>
+  <summary>Bridge (Ponte) 🌉</summary>
   <br>
 
   - O principal objetivo do padrão Bridge é separar a abstração da implementação, permitindo que a alteração em uma delas não afete a outra. 
@@ -135,7 +135,7 @@
 <br>
 
 <details>
-  <summary>Composite ![Composite](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/composite/composite.png)</summary>
+  <summary>Composite (Árvore de objetos) 🌳</summary>
   <br>
 
   - O padrão Composite permite criar estruturas de objetos hierárquicas, onde os objetos individuais e suas composições são tratados de maneira uniforme. Isso significa que você pode tratar um único objeto e um grupo de objetos da mesma maneira.
