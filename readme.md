@@ -115,4 +115,20 @@
 
 </details>
 
+<details>
+<summary>Bridge 🌉</summary>
+  <br>
+
+  - O principal objetivo do padrão Bridge é separar a abstração da implementação, permitindo que a alteração em uma delas não afete a outra. 
+
+  - A ideia central dele é criar uma ponte entre a abstração e a implementação, de modo que ambas possam ser estendidas sem depender uma da outra. Isso oferece flexibilidade, manutenção mais fácil e evita a necessidade de criar um grande número de subclasses.
+
+  - O padrão Bridge permite que você tenha uma hierarquia para abstrações e outra para implementações, e essas hierarquias são independentes e podem ser compostas de várias maneiras.
+
+  - O padrão Bridge é amplamente utilizado em situações em que é importante manter a flexibilidade do sistema, como ao lidar com diferentes sistemas operacionais, bancos de dados, protocolos de comunicação ou dispositivos de hardware.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/bridge">👩🏼‍💻 Show me the code</a>
+
+</details>
+
 <br>
