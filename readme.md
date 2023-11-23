@@ -161,7 +161,7 @@
   - É possível encadear vários decoradores para criar combinações de funcionalidades em tempo de execução. Cada decorador pode adicionar ou modificar o comportamento do objeto original sem quebrar a estrutura existente. 
     - Isso evita a criação de subclasses excessivas para cada combinação possível de funcionalidades.
 
-  - Suponha que você tenha uma classe **`Texto`** que representa um texto simples e deseja adicionar formatações como negrito, itálico e sublinhado sem modificar a classe **`Texto`**. Usando o padrão Decorator, você pode criar classes decoradoras para adicionar essas formatações.
+  > Suponha que você tenha uma classe **`Texto`** que representa um texto simples e deseja adicionar formatações como negrito, itálico e sublinhado sem modificar a classe **`Texto`**. Usando o padrão Decorator, você pode criar classes decoradoras para adicionar essas formatações.
  
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/decorator">👩🏼‍💻 Show me the code</a>
 </details>

@@ -31,6 +31,7 @@ class UsersController
     end
 end
 
+# usado para não deixar os models fat
 module Decorators
     class User
         attr_reader :user
