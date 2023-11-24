@@ -185,4 +185,5 @@
   > Vamos imaginar um sistema de home theater com várias complexidades, como controle de som, luzes, projeção, etc. O padrão Facade poderia ser usado para criar uma interface simples, onde o cliente só precisa interagir com uma classe HomeTheaterFacade. Essa fachada, por sua vez, lidaria com as interações complexas com o sistema de home theater, chamando os métodos apropriados nos subsistemas (controle de som, luzes, etc.).
  
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/facade">👩🏼‍💻 Show me the code</a>
+  <a href="https://blog.appsignal.com/2020/03/18/facade-pattern-in-rails-for-performance-and-maintainability.html">📚 Facade Pattern in Rails</a>
 </details>
