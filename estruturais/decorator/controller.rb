@@ -1,3 +1,6 @@
+# Referência: https://dev.to/vladhilko/how-to-implement-decorator-pattern-in-ruby-on-rails-7ji
+# Exemplo aplicado para ruby on rails, onde esse padrão pode ser usado para não deixar os models "fat"
+
 class User
     attr_accessor :name, :surname, :country, :city, :street
 
@@ -31,7 +34,6 @@ class UsersController
     end
 end
 
-# usado para não deixar os models fat
 module Decorators
     class User
         attr_reader :user
@@ -49,6 +51,8 @@ module Decorators
         end
     end
 end
+
+# Exemplo de uso
 
 controller = UsersController.new
 puts controller.show

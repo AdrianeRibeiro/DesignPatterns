@@ -167,3 +167,22 @@
 </details>
 
 <br>
+
+<details>
+  <summary>Facade 🏠</summary>
+  <br>
+
+  - O padrão Facade tem como objetivo fornecer uma interface simplificada para um conjunto de interfaces mais complexas. Ele atua como uma camada intermediária que oculta a complexidade do sistema subjacente, fornecendo uma interface mais simples para o cliente.
+
+  - Vantagens do Padrão Facade:
+
+    - 1. **Simplicidade para o Cliente:** O cliente interage com uma interface simples e não precisa se preocupar com a complexidade interna do sistema.
+
+    - 2. **Desacoplamento:** O cliente não precisa conhecer os detalhes internos do subsistema. Isso permite que o subsistema evolua sem afetar o cliente.
+
+    - 3. **Melhor Legibilidade e Manutenção:** Melhora a legibilidade do código, pois reduz a quantidade de código que o cliente precisa entender. Também facilita a manutenção, pois as mudanças internas no subsistema podem ser tratadas pela fachada.
+
+  > Vamos imaginar um sistema de home theater com várias complexidades, como controle de som, luzes, projeção, etc. O padrão Facade poderia ser usado para criar uma interface simples, onde o cliente só precisa interagir com uma classe HomeTheaterFacade. Essa fachada, por sua vez, lidaria com as interações complexas com o sistema de home theater, chamando os métodos apropriados nos subsistemas (controle de som, luzes, etc.).
+ 
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/facade">👩🏼‍💻 Show me the code</a>
+</details>

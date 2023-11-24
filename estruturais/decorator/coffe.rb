@@ -1,4 +1,4 @@
-# Referencia: https://medium.com/@dljerome/design-patterns-in-ruby-decorator-b7f2da4153b0
+# Referência: https://medium.com/@dljerome/design-patterns-in-ruby-decorator-b7f2da4153b0
 
 class Coffee
     attr_accessor :price
