@@ -193,18 +193,19 @@
 <details>
   <summary>Proxy</summary>
 
-  - O padrão de design Proxy é um padrão estrutural. O Proxy age como um intermediário, permitindo que um cliente interaja com um objeto por meio do Proxy, que gerencia o acesso ao objeto real.
+  - O padrão de Proxy é um padrão estrutural. O Proxy age como um intermediário, permitindo que um cliente interaja com um objeto por meio do Proxy, que gerencia o acesso ao objeto real.
 
-A principal motivação por trás do uso do padrão Proxy é controlar e gerenciar o acesso a um objeto de maneira mais eficiente. Isso pode ser útil em várias situações, como quando o objeto real é custoso em termos de recursos computacionais, ou quando é necessário adicionar funcionalidades adicionais ao acesso ao objeto, como controle de permissões, registro de acessos, ou até mesmo atrasos na inicialização.
+  - A principal motivação por trás do uso do padrão Proxy é controlar e gerenciar o acesso a um objeto de maneira mais eficiente. Isso pode ser útil em várias situações, como quando o objeto real é custoso em termos de recursos computacionais, ou quando é necessário adicionar funcionalidades adicionais ao acesso ao objeto, como controle de permissões, registro de acessos, ou até mesmo atrasos na inicialização.
 
-Existem diferentes tipos de Proxies, cada um com um propósito específico. Alguns exemplos incluem:
+  - Existem diferentes tipos de Proxies, cada um com um propósito específico. Alguns exemplos incluem:
 
-Proxy Virtual: Adia a criação e a inicialização do objeto real até que seja realmente necessário. Isso é útil quando a criação do objeto é custosa e pode ser evitada até que seja absolutamente necessária.
+    - Proxy Virtual: Adia a criação e a inicialização do objeto real até que seja realmente necessário. Isso é útil quando a criação do objeto é custosa e pode ser evitada até que seja absolutamente necessária.
 
-Proxy de Proteção: Controla o acesso ao objeto real, permitindo ou negando solicitações com base em permissões ou credenciais. Isso é útil para implementar sistemas de segurança.
+    - Proxy de Proteção: Controla o acesso ao objeto real, permitindo ou negando solicitações com base em permissões ou credenciais. Isso é útil para implementar sistemas de segurança.
 
-Proxy Remoto: Controla o acesso a objetos que residem em diferentes espaços de endereçamento, como em sistemas distribuídos. O Proxy Remoto é responsável por gerenciar a comunicação entre o cliente e o objeto remoto.
+    - Proxy Remoto: Controla o acesso a objetos que residem em diferentes espaços de endereçamento, como em sistemas distribuídos. O Proxy Remoto é responsável por gerenciar a comunicação entre o cliente e o objeto remoto.
 
-Em resumo, o padrão de design Proxy é uma abordagem eficaz para fornecer um substituto controlado de um objeto, com quem o cliente interage. Isso oferece benefícios como otimização de recursos, implementação de funcionalidades adicionais e controle de acesso.
+  - Em resumo, o padrão de design Proxy é uma abordagem para fornecer um substituto controlado de um objeto, com quem o cliente interage. Isso oferece benefícios como otimização de recursos, implementação de funcionalidades adicionais e controle de acesso.
+  
   <br>
 </details>
