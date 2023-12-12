@@ -207,5 +207,7 @@
 
   - Em resumo, o padrão de design Proxy é uma abordagem para fornecer um substituto controlado de um objeto, com quem o cliente interage. Isso oferece benefícios como otimização de recursos, implementação de funcionalidades adicionais e controle de acesso.
   
-  <br>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/proxy">👩🏼‍💻 Show me the code</a>
 </details>
+
+<br>
