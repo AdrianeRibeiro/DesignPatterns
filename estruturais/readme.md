@@ -1,6 +1,7 @@
 ## 🤷‍♀️ Sobre 
 
-- Repositório com exemplos práticos de Padrões de projeto. Intuito dele é mais educativo, dessa forma os exemplos não possuem regras de negócio complexas.
+- Repositório com exemplos práticos de Padrões de projeto. 
+- O intuito do repositório é mais educativo, dessa forma, os exemplos de código não são complexos.
 
 > Referências: chatGPT, [Refactoring.Guru](https://refactoring.guru).
   
@@ -118,3 +119,19 @@
 </details>
 
 <br>
+
+<details>
+  <summary>Flyweight</summary>
+
+  - O padrão de projeto Flyweight é um padrão estrutural que visa otimizar o uso de memória ou recursos, compartilhando o máximo possível entre objetos similares. Ele é particularmente útil quando você tem um grande número de objetos semelhantes, e a redução do consumo de memória é crucial.
+
+  - A ideia fundamental por trás do padrão Flyweight é dividir os objetos em duas partes: a parte intrínseca e a parte extrínseca. 
+    - A parte intrínseca contém as informações que são compartilhadas entre objetos e não mudam. 
+    - A parte extrínseca contém as informações que variam entre objetos.
+  
+  - O padrão Flyweight é frequentemente usado em situações onde a criação e manutenção de um grande número de objetos similares pode consumir muitos recursos (Exemplos: jogos, aplicações de interfaces gráficas, sistemas financeiros). Ele ajuda a reduzir a duplicação de dados, otimizando o desempenho e a eficiência.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/flyweight">👩🏼‍💻 Show me the code</a>
+</details>
+
+
