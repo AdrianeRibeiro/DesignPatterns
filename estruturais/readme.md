@@ -7,7 +7,7 @@
   
 <br>
 
-## [🏗️ Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/)
+## [🏗️ Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/)
 
 <details>
 <summary>Adapter</summary>
