@@ -1,4 +1,4 @@
-## 🤷‍♀️ Sobre 
+### 🤷‍♀️ Sobre 
 
 - Repositório com exemplos práticos de Padrões de projeto. 
 - O intuito do repositório é mais educativo, dessa forma, os exemplos de código não são complexos.
@@ -7,10 +7,10 @@
   
 <br>
 
-## [🏗️ Padrões comportamentais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/)
+### [🏗️ Padrões comportamentais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/)
 
 <details>
-<summary>Chain of Responsibility ⛓️</summary>
+<summary>Chain of Responsibility 🔗</summary>
   <br>
 
   - O padrão `Chain of Responsibility` (Corrente de Responsabilidade) permite que você passe uma solicitação através de uma cadeia de handlers. 
