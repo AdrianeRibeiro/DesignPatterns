@@ -30,3 +30,33 @@
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/cor/">👩🏼‍💻 Show me the code</a>
 </details>
+
+<br>
+<details>
+<summary>Command</summary>
+  <br>
+
+  - O command transforma um pedido em um objeto independente que contém toda a informação sobre o pedido.
+
+  - Vamos imaginar um restaurante como uma analogia para entender o padrão de design Command.
+
+  > Analogia
+
+  - Pedido do Cliente (Command): Um cliente decide o que deseja do cardápio (comando).
+
+  - Garçom (Invoker): O garçom recebe o pedido do cliente e o entrega à cozinha sem saber como o prato será preparado.
+
+  - Cozinheiro (Receptor): O cozinheiro sabe como preparar cada prato e executa a ação associada ao pedido.
+
+  - Cardápio (Command): O cardápio representa a lista de comandos disponíveis. Cada prato no cardápio é um comando concreto que pode ser executado.
+  
+  > Benefícios
+
+  - Desacoplamento: O garçom não precisa saber como cada prato é preparado. Ele simplesmente passa os pedidos para a cozinha. 
+
+  - Atraso na Execução: Os pedidos são atrasados até que sejam necessários.
+
+  - Suporte a Operações Desfazer/Refazer: Se houver um erro no pedido, o cliente pode solicitar uma correção. 
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/command/">👩🏼‍💻 Show me the code</a>
+</details>
