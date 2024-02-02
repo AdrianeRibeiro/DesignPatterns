@@ -38,18 +38,18 @@
 
   - O command transforma um pedido em um objeto independente que contém toda a informação sobre o pedido.
 
+  > Analogia
+  
   - Vamos imaginar um restaurante como uma analogia para entender o padrão de design Command.
 
-  > Analogia
+    - Pedido do Cliente (Command): Um cliente decide o que deseja do cardápio (comando).
 
-  - Pedido do Cliente (Command): Um cliente decide o que deseja do cardápio (comando).
+    - Garçom (Invoker): O garçom recebe o pedido do cliente e o entrega à cozinha sem saber como o prato será preparado.
 
-  - Garçom (Invoker): O garçom recebe o pedido do cliente e o entrega à cozinha sem saber como o prato será preparado.
+    - Cozinheiro (Receptor): O cozinheiro sabe como preparar cada prato e executa a ação associada ao pedido.
 
-  - Cozinheiro (Receptor): O cozinheiro sabe como preparar cada prato e executa a ação associada ao pedido.
-
-  - Cardápio (Command): O cardápio representa a lista de comandos disponíveis. Cada prato no cardápio é um comando concreto que pode ser executado.
-  
+    - Cardápio (Command): O cardápio representa a lista de comandos disponíveis. Cada prato no cardápio é um comando concreto que pode ser executado.
+    
   > Benefícios
 
   - Desacoplamento: O garçom não precisa saber como cada prato é preparado. Ele simplesmente passa os pedidos para a cozinha. 
@@ -59,4 +59,30 @@
   - Suporte a Operações Desfazer/Refazer: Se houver um erro no pedido, o cliente pode solicitar uma correção. 
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/command/">👩🏼‍💻 Show me the code</a>
+</details>
+
+<br>
+<details>
+<summary>Iterator 🔁</summary>
+  <br>
+
+  - O padrão Iterator é um padrão de projeto comportamental que fornece uma maneira de acessar sequencialmente elementos de um objeto agregado sem expor os detalhes subjacentes da implementação. Basicamente, ele permite percorrer uma coleção de objetos sem precisar conhecer a estrutura interna dessa coleção.
+
+  - Vantagens: O padrão Iterator simplifica a interface de acesso a elementos de uma coleção, desacopla o código do cliente da implementação específica da coleção e permite a adição de novos tipos de coleções sem modificar o código do cliente.
+
+  > Analogia
+
+  - Imagine que uma biblioteca é uma coleção de livros, e você, como leitor, deseja percorrer esses livros. Nesse contexto:
+
+    - Biblioteca: Representa a coleção de livros, análogo ao objeto agregado.
+
+    - Leitor: Representa o código cliente que deseja acessar os livros, análogo ao cliente do padrão Iterator.
+
+    - Prateleiras e Livros: São os elementos individuais da coleção, análogos aos elementos da coleção no padrão Iterator.
+
+    - Bibliotecário: Pode ser considerado o iterador. O bibliotecário conhece a organização interna da biblioteca (a coleção) e fornece ao leitor um método para percorrer os livros de uma maneira organizada, sem que o leitor precise entender como os livros estão dispostos nas prateleiras.
+
+    Assim como o leitor não precisa se preocupar em conhecer os detalhes de organização da biblioteca, no padrão Iterator, o cliente não precisa se preocupar com a estrutura interna da coleção. O iterador (ou bibliotecário) fornece um método consistente para percorrer os elementos da coleção, independentemente de como eles estão organizados internamente.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/iterator/">👩🏼‍💻 Show me the code</a>
 </details>
