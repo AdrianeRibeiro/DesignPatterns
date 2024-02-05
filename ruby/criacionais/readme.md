@@ -7,7 +7,7 @@
   
 <br>
 
-### [🏭 Padrões criacionais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/)
+### [🏭 Padrões criacionais](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/)
 
 <details>
 <summary>Factory (Método fábrica) </summary>
@@ -22,7 +22,7 @@
   - A ideia central do padrão Factory é definir uma interface (ou classe abstrata) que declara um método para a criação de objetos. 
     - As classes concretas que implementam essa interface fornecem a implementação real desse método, criando instâncias de objetos específicos. Isso permite que o cliente (código que deseja criar objetos) use a interface para criar objetos sem precisar se preocupar com os detalhes de como os objetos são criados.
   
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/factory.rb">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/factory.rb">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -43,7 +43,7 @@
 
   - É usado quando você precisa criar objetos que compartilham uma interface comum, mas pertencem a famílias diferentes, e você deseja garantir que essas famílias de objetos sejam consistentes e intercambiáveis. Isso promove um código mais flexível, de fácil manutenção e menos propenso a erros.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/abstract_factory.rb">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/abstract_factory.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
 
@@ -62,7 +62,7 @@
     - pode haver muitas maneiras de construir objetos complexos.
     - trabalha-se com muitos parâmetros no construtor
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/builder.rb">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/builder.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
 
@@ -78,7 +78,7 @@
 
   - O principal objetivo do padrão Prototype é permitir a criação de novos objetos a partir de um modelo (protótipo) preexistente, copiando suas propriedades e valores, em vez de criar novas instâncias do zero. Isso evita a necessidade de recriar o objeto original e permite que você crie clones com configurações personalizadas.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/prototype.rb">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/prototype.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
 
@@ -94,7 +94,7 @@
 
   - Muitos desenvolvedores consideram o padrão Singleton um antipadrão. É por isso que seu uso está diminuindo no código Ruby.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/criacionais/singleton.rb">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/singleton.rb">👩🏼‍💻 Show me the code</a>
 
 </details>
 
