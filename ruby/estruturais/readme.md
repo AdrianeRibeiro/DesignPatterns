@@ -7,7 +7,7 @@
   
 <br>
 
-### [😐 Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/)
+### [😐 Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/)
 
 <details>
 <summary>Adapter</summary>
@@ -19,7 +19,7 @@
 
   - Essencialmente, o Adapter funciona como um tradutor, convertendo as chamadas de métodos e dados de um formato ou estrutura em outro, garantindo que duas partes do sistema possam se comunicar sem problemas. Isso promove a reutilização de código e simplifica a manutenção, uma vez que as alterações em um sistema não afetarão necessariamente o outro, desde que a interface do Adapter seja mantida consistente.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/adapter">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/adapter">👩🏼‍💻 Show me the code</a>
 
 </details>
 
@@ -37,7 +37,7 @@
 
   - O padrão Bridge é amplamente utilizado em situações em que é importante manter a flexibilidade do sistema, como ao lidar com diferentes sistemas operacionais, bancos de dados, protocolos de comunicação ou dispositivos de hardware.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/bridge">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/bridge">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -54,7 +54,7 @@
 
   - Um exemplo comum de uso do padrão Composite é a representação de sistemas de arquivos, onde você tem arquivos individuais e diretórios que podem conter mais arquivos ou diretórios.
  
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/composite">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/composite">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -71,7 +71,7 @@
 
   > Suponha que você tenha uma classe **`Texto`** que representa um texto simples e deseja adicionar formatações como negrito, itálico e sublinhado sem modificar a classe **`Texto`**. Usando o padrão Decorator, você pode criar classes decoradoras para adicionar essas formatações.
  
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/decorator">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/decorator">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -92,7 +92,7 @@
 
   > Vamos imaginar um sistema de home theater com várias complexidades, como controle de som, luzes, projeção, etc. O padrão Facade poderia ser usado para criar uma interface simples, onde o cliente só precisa interagir com uma classe HomeTheaterFacade. Essa fachada, por sua vez, lidaria com as interações complexas com o sistema de home theater, chamando os métodos apropriados nos subsistemas (controle de som, luzes, etc.).
  
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/facade">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/facade">👩🏼‍💻 Show me the code</a>
   <a href="https://blog.appsignal.com/2020/03/18/facade-pattern-in-rails-for-performance-and-maintainability.html">📚 Facade Pattern in Rails</a>
 </details>
 
@@ -115,7 +115,7 @@
 
   - Em resumo, o padrão de design Proxy é uma abordagem para fornecer um substituto controlado de um objeto, com quem o cliente interage. Isso oferece benefícios como otimização de recursos, implementação de funcionalidades adicionais e controle de acesso.
   
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/proxy">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/proxy">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -131,7 +131,7 @@
   
   - O padrão Flyweight é frequentemente usado em situações onde a criação e manutenção de um grande número de objetos similares pode consumir muitos recursos (Exemplos: jogos, aplicações de interfaces gráficas, sistemas financeiros). Ele ajuda a reduzir a duplicação de dados, otimizando o desempenho e a eficiência.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/estruturais/flyweight">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/flyweight">👩🏼‍💻 Show me the code</a>
 </details>
 
 
