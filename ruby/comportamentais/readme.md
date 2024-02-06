@@ -28,7 +28,7 @@
 
   - Um exemplo comum de aplicação do `Chain of Responsibility` é em sistemas de processamento de eventos, validação de entrada ou em cenários em que existem várias etapas de manipulação de dados. Cada manipulador na cadeia pode representar uma etapa específica no processamento.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/cor/">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/cor/">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -58,7 +58,7 @@
 
   - Suporte a Operações Desfazer/Refazer: Se houver um erro no pedido, o cliente pode solicitar uma correção. 
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/command/">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/command/">👩🏼‍💻 Show me the code</a>
 </details>
 
 <br>
@@ -84,5 +84,5 @@
 
     Assim como o leitor não precisa se preocupar em conhecer os detalhes de organização da biblioteca, no padrão Iterator, o cliente não precisa se preocupar com a estrutura interna da coleção. O iterador (ou bibliotecário) fornece um método consistente para percorrer os elementos da coleção, independentemente de como eles estão organizados internamente.
 
-  <a href="https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/iterator/">👩🏼‍💻 Show me the code</a>
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/iterator/">👩🏼‍💻 Show me the code</a>
 </details>
