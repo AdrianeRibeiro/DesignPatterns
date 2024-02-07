@@ -98,9 +98,9 @@
 
   > Analogia:
   
-  - Pilotos de aeronaves não falam entre si diretamente nahora de decidir quem é o próximo a aterrisar seu avião. Toda comunicação passa pela torre de controle.
+  - Pilotos de aeronaves não falam entre si diretamente na hora de decidir quem é o próximo a aterrisar seu avião. Toda comunicação passa pela torre de controle.
 
-  > Vantagens do padrão Mediator:
+  > Vantagens:
 
   - Desacoplamento:
     - Reduz o acoplamento entre os objetos, já que eles não precisam se conhecer diretamente.
