@@ -33,7 +33,7 @@
 
 <br>
 <details>
-<summary>Command</summary>
+<summary>Command 📢</summary>
   <br>
 
   - O command transforma um pedido em um objeto independente que contém toda a informação sobre o pedido.
@@ -85,4 +85,35 @@
     Assim como o leitor não precisa se preocupar em conhecer os detalhes de organização da biblioteca, no padrão Iterator, o cliente não precisa se preocupar com a estrutura interna da coleção. O iterador (ou bibliotecário) fornece um método consistente para percorrer os elementos da coleção, independentemente de como eles estão organizados internamente.
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/iterator/">👩🏼‍💻 Show me the code</a>
+</details>
+
+<br>
+<details>
+<summary>Mediator 🕊️</summary>
+  <br>
+
+  - O padrão Mediator promove o desacoplamento de objetos comunicantes, ao centralizar suas interações através de um objeto mediador. 
+    - Ele facilita a comunicação indireta entre os objetos, reduzindo as dependências diretas entre eles.
+    - É útil quando um conjunto de objetos precisa se comunicar de maneira complexa, mas você deseja evitar que eles se comuniquem diretamente uns com os outros.
+
+  > Analogia:
+  
+  - Pilotos de aeronaves não falam entre si diretamente nahora de decidir quem é o próximo a aterrisar seu avião. Toda comunicação passa pela torre de controle.
+
+  > Vantagens do padrão Mediator:
+
+  - Desacoplamento:
+    - Reduz o acoplamento entre os objetos, já que eles não precisam se conhecer diretamente.
+    - Facilita a manutenção e extensão do sistema, pois mudanças em um objeto não afetam diretamente os outros.
+
+  - Centralização do controle:
+    - Centraliza a lógica de comunicação em um único lugar (o mediador), tornando o código mais organizado e fácil de entender.
+
+  - Promove a reutilização de código:
+    - Os objetos podem ser reutilizados em diferentes contextos, pois sua lógica de comunicação está separada do restante do código.
+
+  - Facilita a adição de novos objetos:
+    - Adicionar novos objetos que interagem com os outros é mais simples, pois eles só precisam se comunicar com o mediador, não com todos os outros objetos.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/mediator/">👩🏼‍💻 Show me the code</a>
 </details>
