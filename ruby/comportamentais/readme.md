@@ -117,3 +117,55 @@
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/mediator/">👩🏼‍💻 Show me the code</a>
 </details>
+
+<br>
+<details>
+<summary>Memento 📷</summary>
+  <br>
+  - O padrão `Memento` é usado para capturar um estado interno de um objeto, permitindo que o objeto seja restaurado para esse estado mais tarde, sem quebrar a encapsulação. Esse padrão é útil quando você precisa implementar operações de desfazer (undo) ou restaurar o estado anterior de um objeto.
+
+  <br>
+
+  > Componentes do Padrão `Memento`
+  
+  1. Originator (Originador):
+  - É o objeto cujo estado interno será salvo e restaurado. Ele cria um `Memento` que representa seu estado interno e também pode usar um `Memento` para restaurar seu estado interno anterior.
+
+  2. `Memento`:
+  - É uma classe que representa o estado de um objeto Originator em um determinado momento. Geralmente, contém uma cópia do estado interno do Originator.
+
+  3. Caretaker (Zelador):
+  - É responsável por manter os objetos `Memento` em uma lista. Ele não manipula o estado interno do `Memento`, apenas cuida deles e fornece a funcionalidade para que o Originator possa salvar e restaurar seu estado através dos Mementos.
+
+  <br>
+
+  > Benefícios do Padrão
+  - Permite que um objeto restaure seu estado anterior facilmente.
+  - Mantém o encapsulamento do objeto, já que apenas o Originator pode acessar o estado contido no `Memento`.
+  - Facilita a implementação de operações de desfazer e refazer.
+
+  <br>
+
+  > Quando usar?
+  - Quando você precisa implementar operações de desfazer e refazer em sua aplicação.
+  - Quando você precisa capturar e restaurar o estado interno de um objeto sem quebrar a encapsulação.
+  - Quando você quer ter a possibilidade de salvar e restaurar estados anteriores de um objeto.
+
+  > Analogia com um Editor de texto
+  
+  - Usuário:
+    - Você, como usuário do editor de texto, é o Originator. Você está criando e editando o documento.
+
+  - Estado do Documento:
+    - O estado do documento em um determinado momento, incluindo o texto, formatação, imagens, etc., é como um Memento. Cada vez que você faz uma edição significativa, o estado atual do documento é capturado como um Memento.
+
+  - Histórico de Revisão:
+    - O histórico de revisão do editor de texto, que mantém uma lista de todas as versões anteriores do documento, é como o Caretaker. Ele armazena todos os Mementos (ou estados anteriores do documento) em uma lista.
+  
+  - Operação de Desfazer/Refazer:
+    - Quando você deseja desfazer uma alteração no documento, você solicita ao editor para restaurar a versão anterior do documento a partir do histórico de revisão. Isso é semelhante a solicitar ao Caretaker um Memento anterior para restaurar o estado anterior do documento.
+    - Quando você deseja refazer uma alteração previamente desfeita, você solicita ao editor para avançar para a próxima versão do documento no histórico de revisão. Isso é semelhante a solicitar ao Caretaker o próximo Memento na lista para restaurar o estado seguinte do documento.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/memento/">👩🏼‍💻 Show me the code</a>
+</details>
+
