@@ -122,26 +122,27 @@
 <details>
 <summary>Memento 📷</summary>
   <br>
+
   - O padrão `Memento` é usado para capturar um estado interno de um objeto, permitindo que o objeto seja restaurado para esse estado mais tarde, sem quebrar a encapsulação. Esse padrão é útil quando você precisa implementar operações de desfazer (undo) ou restaurar o estado anterior de um objeto.
 
   <br>
 
-  > Componentes do Padrão `Memento`
+  > Componentes do Padrão Memento
   
   1. Originator (Originador):
-  - É o objeto cujo estado interno será salvo e restaurado. Ele cria um `Memento` que representa seu estado interno e também pode usar um `Memento` para restaurar seu estado interno anterior.
+  - É o objeto cujo estado interno será salvo e restaurado. Ele cria um Memento que representa seu estado interno e também pode usar um Memento para restaurar seu estado interno anterior.
 
-  2. `Memento`:
+  2. Memento:
   - É uma classe que representa o estado de um objeto Originator em um determinado momento. Geralmente, contém uma cópia do estado interno do Originator.
 
   3. Caretaker (Zelador):
-  - É responsável por manter os objetos `Memento` em uma lista. Ele não manipula o estado interno do `Memento`, apenas cuida deles e fornece a funcionalidade para que o Originator possa salvar e restaurar seu estado através dos Mementos.
+  - É responsável por manter os objetos Memento em uma lista. Ele não manipula o estado interno do Memento, apenas cuida deles e fornece a funcionalidade para que o Originator possa salvar e restaurar seu estado através dos Mementos.
 
   <br>
 
   > Benefícios do Padrão
   - Permite que um objeto restaure seu estado anterior facilmente.
-  - Mantém o encapsulamento do objeto, já que apenas o Originator pode acessar o estado contido no `Memento`.
+  - Mantém o encapsulamento do objeto, já que apenas o Originator pode acessar o estado contido no Memento.
   - Facilita a implementação de operações de desfazer e refazer.
 
   <br>
