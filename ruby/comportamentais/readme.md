@@ -152,6 +152,8 @@
   - Quando você precisa capturar e restaurar o estado interno de um objeto sem quebrar a encapsulação.
   - Quando você quer ter a possibilidade de salvar e restaurar estados anteriores de um objeto.
 
+  <br>
+
   > Analogia com um Editor de texto
   
   - Usuário:
