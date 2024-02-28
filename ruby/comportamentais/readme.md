@@ -174,8 +174,9 @@
 
 <br>
 <details>
-<summary>Observer🕵🏼‍♀️</summary>
+<summary>Observer 🕵🏼‍♀️</summary>
   <br>
+
   - O padrão `Observer` é utilizado quando um objeto (chamado de "sujeito" ou "observável") precisa notificar outros objetos (chamados de "observadores") sobre mudanças em seu estado.
 
   > Componentes
