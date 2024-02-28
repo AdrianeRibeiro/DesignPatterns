@@ -127,7 +127,7 @@
 
   <br>
 
-  > Componentes do Padrão Memento
+  > Componentes
   
   1. Originator (Originador):
   - É o objeto cujo estado interno será salvo e restaurado. Ele cria um Memento que representa seu estado interno e também pode usar um Memento para restaurar seu estado interno anterior.
@@ -140,7 +140,7 @@
 
   <br>
 
-  > Benefícios do Padrão
+  > Benefícios
   - Permite que um objeto restaure seu estado anterior facilmente.
   - Mantém o encapsulamento do objeto, já que apenas o Originator pode acessar o estado contido no Memento.
   - Facilita a implementação de operações de desfazer e refazer.
@@ -172,3 +172,33 @@
   <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/memento/">👩🏼‍💻 Show me the code</a>
 </details>
 
+<br>
+<details>
+<summary>Observer🕵🏼‍♀️</summary>
+  <br>
+  - O padrão `Observer` é utilizado quando um objeto (chamado de "sujeito" ou "observável") precisa notificar outros objetos (chamados de "observadores") sobre mudanças em seu estado.
+
+  > Componentes
+
+  - Sujeito (Observable): É o objeto que monitora e gerencia seus observadores. Ele mantém uma lista de observadores e fornece métodos para adicionar, remover e notificar observadores.
+  - Observador (Observer): É o objeto que deseja ser notificado sobre as mudanças no sujeito. Ele implementa um método de atualização que é chamado quando o estado do sujeito muda.
+
+  > Funcionamento
+
+  - Quando o estado do sujeito muda, ele notifica todos os seus observadores chamando um método de atualização em cada observador.
+    - Os observadores podem então reagir a essa notificação realizando ações com base nas mudanças no estado do sujeito.
+
+  > Vantagens:
+  
+  - Desacoplamento: O padrão Observer promove um baixo acoplamento entre o sujeito e seus observadores. O sujeito não precisa conhecer detalhes sobre os observadores, apenas que eles implementam uma determinada interface.
+
+  - Extensibilidade: Novos observadores podem ser facilmente adicionados sem modificar o sujeito.
+
+  > Analogia
+
+  - Se você assinar um jornal ou uma revista, você não vai mais precisar ir até a banca. Ao invés disso a publicadora manda novas edições diretamente para sua caixa de correio após a publicação ou até mesmo com antecedência (refactoring.guru).
+
+  - A publicadora mantém uma lista de assinantes e sabe em quais revistas eles estão interessados. Os assinantes podem deixar essa lista a qualquer momento quando desejarem que a publicadora pare de enviar novas revistas para eles (refactoring.guru).
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/observer/">👩🏼‍💻 Show me the code</a>
+</details>
