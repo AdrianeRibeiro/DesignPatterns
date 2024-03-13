@@ -1,12 +1,3 @@
-### 🤷‍♀️ Sobre 
-
-- Repositório com exemplos práticos de Padrões de projeto. 
-- O intuito do repositório é mais educativo, dessa forma, os exemplos de código não são complexos.
-
-> Referências: chatGPT, [Refactoring.Guru](https://refactoring.guru).
-  
-<br>
-
 ### [🏗️ Padrões comportamentais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/)
 
 <details>
@@ -202,4 +193,34 @@
   - A publicadora mantém uma lista de assinantes e sabe em quais revistas eles estão interessados. Os assinantes podem deixar essa lista a qualquer momento quando desejarem que a publicadora pare de enviar novas revistas para eles (refactoring.guru).
 
   <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/observer/">👩🏼‍💻 Show me the code</a>
+</details>
+
+<br>
+<details>
+<summary>State</summary>
+  <br>
+
+  - O padrão `State` permite que um objeto altere seu comportamento quando seu estado interno muda. Isso é alcançado ao encapsular os estados em classes separadas e permitir que o objeto mude de uma instância de estado para outra conforme necessário.
+
+  > Problema:
+  
+  - Imagine que você tem um objeto que precisa mudar seu comportamento de acordo com seu estado interno. Por exemplo, uma máquina de venda automática. O comportamento dessa máquina muda dependendo se está em um estado de "pronto", "sem estoque" ou "fora de serviço". Implementar todas essas transições e comportamentos diretamente no objeto pode levar a um código complexo e difícil de manter.
+
+  > Solução:
+  
+  - O padrão State propõe resolver esse problema separando os estados e os comportamentos associados a eles em classes separadas. 
+
+  > Componentes:
+
+   - **Contexto (Context):** É o objeto que possui um estado interno. Ele mantém uma referência para uma instância de estado concreto e delega todas as chamadas de métodos relacionados ao estado para essa instância.
+   - **Estado (State):** É uma interface ou classe abstrata que define os métodos que representam os comportamentos associados a um determinado estado.
+   - **Estados Concretos (Concrete States):** São as implementações específicas da interface de estado. Cada classe concreta representa um estado específico e implementa os métodos definidos na interface de estado.
+
+  > Benefícios:
+
+   - **Separação de Responsabilidades:** O padrão State promove uma separação clara entre os diferentes estados e seus comportamentos associados.
+   - **Facilidade de Adição de Novos Estados:** Adicionar novos estados ao sistema é fácil, pois você só precisa criar uma nova classe de estado e implementar seus comportamentos.
+   - **Manutenção Simples:** O código se torna mais modular e fácil de entender, o que facilita a manutenção e evolução do sistema ao longo do tempo.
+
+  <a href="https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/comportamentais/state/">👩🏼‍💻 Show me the code</a>
 </details>

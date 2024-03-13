@@ -1,12 +1,3 @@
-### 🤷‍♀️ Sobre 
-
-- Repositório com exemplos práticos de Padrões de projeto. 
-- O intuito do repositório é mais educativo, dessa forma, os exemplos de código não são complexos.
-
-> Referências: chatGPT, [Refactoring.Guru](https://refactoring.guru).
-  
-<br>
-
 ### [😐 Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/)
 
 <details>
