@@ -204,7 +204,7 @@
 
   > Problema:
   
-  - Imagine que você tem um objeto que precisa mudar seu comportamento de acordo com seu estado interno. Por exemplo, uma máquina de venda automática. O comportamento dessa máquina muda dependendo se está em um estado de "pronto", "sem estoque" ou "fora de serviço". Implementar todas essas transições e comportamentos diretamente no objeto pode levar a um código complexo e difícil de manter.
+  - Imagine que você tem um objeto que precisa mudar seu comportamento de acordo com seu estado interno. Por exemplo, uma máquina de venda automática. O comportamento dessa máquina muda dependendo se está em um estado de `pronto`, `sem estoque` ou `fora de serviço`. Implementar todas essas transições e comportamentos diretamente no objeto pode levar a um código complexo e difícil de manter.
 
   > Solução:
   
