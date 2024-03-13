@@ -1,4 +1,4 @@
-### [🏗️ Padrões comportamentais](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/)
+### [Padrões comportamentais 🏗️](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/)
 
 <details>
 <summary>Chain of Responsibility 🔗</summary>

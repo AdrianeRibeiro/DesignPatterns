@@ -1,4 +1,4 @@
-### [🏭 Padrões criacionais](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/)
+### [Padrões criacionais 🏭](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/)
 
 <details>
 <summary>Factory (Método fábrica) </summary>

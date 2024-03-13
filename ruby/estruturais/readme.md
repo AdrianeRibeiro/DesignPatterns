@@ -1,4 +1,4 @@
-### [😐 Padrões estruturais](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/)
+### [Padrões estruturais 😐](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/)
 
 <details>
 <summary>Adapter</summary>
