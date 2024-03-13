@@ -1,5 +1,7 @@
 ### [Padrões comportamentais 🏗️](https://github.com/AdrianeRibeiro/DesignPatternsRuby/blob/main/comportamentais/)
 
+<br>
+
 <details>
 <summary>Chain of Responsibility 🔗</summary>
   <br>

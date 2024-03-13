@@ -1,5 +1,7 @@
 ### [Padrões criacionais 🏭](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/criacionais/)
 
+<br>
+
 <details>
 <summary>Factory (Método fábrica) </summary>
   <br>

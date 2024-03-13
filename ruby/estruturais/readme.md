@@ -1,5 +1,7 @@
 ### [Padrões estruturais 😐](https://github.com/AdrianeRibeiro/DesignPatterns/tree/main/ruby/estruturais/)
 
+<br>
+
 <details>
 <summary>Adapter</summary>
   <br>
